@@ -1,0 +1,221 @@
+.firstone{
+  padding-bottom: 0;
+}
+
+body, html {
+  overflow-x: hidden;
+
+
+}
+#About{
+  position: relative;
+  margin-top: 10%;
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+.firstimage
+{
+  transform: rotate(10deg);
+  width:70%;
+  position:relative;
+  left:5em;
+  top:1em;
+
+}
+
+
+h1, h2, h3, h6{
+font-style: "Montserrat";
+font-weight: bold;
+}
+
+
+h1{
+text-align:center;
+color: #fff;
+padding-bottom: 1.5em;
+}
+
+h1,h2{
+  color: #fff;
+    font-size: 3em;
+}
+
+
+h2{
+  padding-right: 2em;
+  padding-left: 2em;
+  line-height: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+h6{
+  text-align:center;
+  font-size: 3em;
+  padding-bottom: 1.5em;
+  padding-top: -1em;
+  color:#ff4c68;
+  position: relative;
+  right:2em;
+}
+
+#Products h2{
+  text-align: center;
+  font-size: 3em;
+  color:#ff4c68;
+  position: relative;
+  bottom: 3rem;
+}
+
+#benefits h6{
+  position: relative;
+  left: 2rem;
+}
+#more{
+  text-align: center;
+  background-color: #dfddc7;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+#more h1{
+  width: 50%;
+  margin: auto;
+  font-size: 2rem;
+  line-height: 4rem;
+color: #ff4c68;
+}
+
+ #Extra h1{
+   width: 50%;
+   margin: auto;
+   font-size: 2rem;
+   line-height: 4rem;
+color: #ff4c68;
+ }
+
+
+#title{
+  width: 100%;
+  margin:auto;
+}
+
+.navbar{
+  padding-bottom:2em;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.nav-item{
+padding: 0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+font-family: "Montserrat-Light"
+}
+#benefits{
+  position: relative;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+
+#Products{
+  position: relative;
+  padding-left: 7%;
+  padding-right: 7%;
+
+}
+
+
+#benefits, #Products{
+  padding-top: 7%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#Extra{
+background-color:#dfddc7;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#Queries{
+background-color: #ffdfdf;
+
+}
+
+#Queries p{
+text-align: center;
+padding-bottom: 0%;
+}
+
+
+#Products img{
+  width: 30%;
+  height: 50%;
+}
+
+
+.bones1, .bones2, .bones3, .bones4{
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+.chck h5{
+  font-family: "Montserrat-Bold";
+  font-weight:600;
+  font-size: 2rem;
+}
+
+ p{
+  color:#8f8f8f;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+.insta{
+  height: 3rem;
+  width:3rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+}
+#Social{
+  padding-right: 25%;
+  padding-left: 35%;
+  padding-top: 7%;
+  padding-bottom:3%;
+
+}
+
+#Extra img{
+  width: 25rem;
+  height:25rem;
+}
+
+
+ @media (max-width:900px) {
+#title h1, h2{
+  font-size:2.5rem;
+}
+ }
+
+
+
+@media (max-width:900px) {
+#benefits{
+  padding-top:15%;
+}
+}
